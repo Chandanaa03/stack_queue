@@ -24,21 +24,21 @@ namespace stackdemo
            
             Console.WriteLine("peek value is " + queue.Peek());
 
-            //Console.WriteLine("--------------");
-            //queue.Dequeue();
-            //foreach (int element in queue)
-            //{
-            //    Console.WriteLine(element);
-            //}
-            //Console.WriteLine("peek value is " + queue.Peek());
-            //Console.WriteLine("--------------");
+            Console.WriteLine("--------------");
+            queue.Dequeue();
+            foreach (int element in queue)
+            {
+                Console.WriteLine(element);
+            }
+            Console.WriteLine("peek value is " + queue.Peek());
+            Console.WriteLine("--------------");
 
-            //queue.Dequeue();
-            //foreach (int element in queue)
-            //{
-            //    Console.WriteLine(element);
-            //}
-            //Console.WriteLine("peek value is " + queue.Peek());
+            queue.Dequeue();
+            foreach (int element in queue)
+            {
+                Console.WriteLine(element);
+            }
+            Console.WriteLine("peek value is " + queue.Peek());
 
 
 
