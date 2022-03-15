@@ -19,7 +19,38 @@ namespace stackdemo
                 Console.WriteLine(ele);
             }
             Console.WriteLine("----------");
-            Console.WriteLine(st.Peek());
+            Console.WriteLine("peek value " + st.Peek());
+            Console.WriteLine("----------");
+            st.Pop();
+            foreach (int ele in st)
+            {
+                Console.WriteLine(ele);
+            }
+            Console.WriteLine("--------");
+
+            Console.WriteLine("peek value " + st.Peek());
+            Console.WriteLine("----------");
+            st.Pop();
+            foreach (int ele in st)
+            {
+                Console.WriteLine(ele);
+            }
+            Console.WriteLine("--------");
+
+            Console.WriteLine("peek value " + st.Peek());
+            Console.WriteLine("----------");
+            st.Pop();
+            foreach (int ele in st)
+            {
+                Console.WriteLine(ele);
+            }
+           
+           
+            
+
+
+
+
         }
     }
 }
